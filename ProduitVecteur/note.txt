@@ -1,0 +1,13 @@
+### guide de comment compiler un programme c ### 
+
+- ouvrir le terminal 
+- se placer dans le repertoire contenant le fichier à compiler (fichier avec l'extension .c)
+- entrer la commande gcc -o fichier fichier.c ( fichier représente le fichier qui va etre creer après la compilation et fichier.c représente notre fichier.c quon a creer [celui qui contient le code c])
+- après cela un nouveau fichier sans extension est creer ("fichier")
+- pour l'exécuter il faut taper la commande : ./fichier ( cela va lancer le programme directement dans le terminal )
+
+### exécution et compilation d'un programme ecrit avec openmp ### 
+
+- c'est le meme procéder que celui du haut
+- a la seul différence que la compilation se fait via la commande : gcc -Wall -o fichier fichier.c
+- pour l'exécution c'est le meme procéder 
